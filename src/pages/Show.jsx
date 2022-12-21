@@ -10,7 +10,7 @@ function Show(props) {
     const params = useParams()
     const { id } = params
 
-    const URL = `http://localhost:13000/people/${id}`
+    const URL = `https://seir1031-people-be.herokuapp.com/people/${id}`
 
     // console.log("id", id, URL)
     // console.log(`Current Person: ${JSON.stringify(person)}`)
